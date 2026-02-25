@@ -1,5 +1,6 @@
 services:
   app:
+    platform: linux/amd64
     image: iamthewraith/wraithcode:latest
     restart: always
     container_name: wraithcode
